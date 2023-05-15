@@ -1,0 +1,125 @@
+#radio1:checked ~ .first{
+    margin-top: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-top: -35.5%;
+}
+
+#radio3:checked ~ .first{
+    margin-top: -71.5%;
+}
+
+#radio4:checked ~ .first{
+    margin-top: -107%;
+}
+
+#radio5:checked ~ .first{
+    margin-top: -142.5%;
+}
+
+
+/*css for automatic navigation */
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: #F97316;
+   
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background: #F97316;
+    
+}
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background: #F97316;
+    
+}
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background: #F97316;
+}
+#radio5:checked ~ .navigation-auto .auto-btn5{
+    background: #F97316;
+}
+
+/*for trip booking page*/
+span.active{
+    position: relative;
+    color: #292b4a;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+}
+
+span.active::after{
+    content: '';
+    width: 200%;
+    height: 2px;
+    background: #292b48;
+    position: absolute;
+    bottom: -20px;
+}
+
+.switch-checkbox{
+    display: none;
+}
+
+.switch{
+    position: relative;
+}
+
+.switch-bg{
+    height: 24px;
+    width: 44px;
+    background: rgb(132, 130, 130);
+    border-radius: 15px;
+}
+
+.switch-indicator{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background: orange;
+    border: 5px solid white;
+    border-radius: 50%;
+    top: 2px;
+    left: 2px;
+    transition: .2s ease-out;
+}
+
+.switch-checkbox:checked~.switch-indicator{
+    transform: translateX(100%);
+}
+
+.switch-checkbox:checked~.switch-bg{
+    background: orange;
+}
+
+/*For traveler input*/
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+/*.select-clicked{
+    border: 2px solid #00ff00;
+    box-shadow: 0 0 20px #00ff00;
+}*/
+
+.aero-rotate{
+    transform: rotate(-180deg);
+}
+
+.aero{
+    transition: .1s;
+}
+
+.menu-section{
+    opacity: 0;
+    display: none;
+}
+
+.menu-open{
+    opacity: 1;
+    display: block;
+}

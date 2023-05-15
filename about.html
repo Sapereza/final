@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="/dist/output.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <title>Lesson 9</title>
+    </head>
+<body class="font-serif">
+    <header class="flex flex-col items-center m-10">
+        <div class="mr-620 my-4">
+            <h1 class="text-3xl">Exotic<b>Travel</b> - About Us</h1>
+        </div>
+        <div class="flex w-800 h-250">
+            <section class="flex flex-row">
+                
+                <div class="bg-orange-500 h-250 w-250 flex flex-col justify-center items-center">
+                    <ul class="font-bold text-white">
+                        <li class="mb-2">
+                            <a href="index.html" class="hover:underline">Home</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="about.html" class="hover:underline">About Us</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="destinations.html" class="hover:underline">Destinations</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="ticket.html" class="hover:underline">Book a Ticket</a>
+                        </li>
+                        <li>
+                            <a href="contact.html" class="hover:underline">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                
+
+            </section>
+            <!--IMAGE SLIDER START-->
+            <section class="slider overflow-hidden">
+                <div class="flex bg-gray-300 h-250 w-700 items-stretch">
+                    <div class="slides">
+                        <!--RADIO BUTTONS START-->
+                        <input class="hidden" type="radio" name="radio-btn" id="radio1" checked>
+                        <input class="hidden" type="radio" name="radio-btn" id="radio2">
+                        <input class="hidden" type="radio" name="radio-btn" id="radio3">
+                        <input class="hidden" type="radio" name="radio-btn" id="radio4">
+                        <input class="hidden" type="radio" name="radio-btn" id="radio5">
+                        <!--RADIO BUTTONS END-->
+                        <!--SLIDE IMAGES START-->
+                        <div class="slide first duration-2000">
+                            <img class="h-250 w-700" src="images/hotelbysea.jpg">
+                        </div>
+                        <div class="slide duration-2000">
+                            <img class="h-250 w-700" src="images/villageoverwater.jpg">
+                        </div>
+                        <div class="slide duration-2000">
+                            <img class="h-250 w-700" src="images/islandliving.jpg">
+                        </div>
+                        <div class="slide duration-2000">
+                            <img class="h-250 w-700" src="images/Greek.jpg">
+                        </div>
+                        <div class="slide duration-2000">
+                            <img class=" h-250 w-700" src="images/asianstylehotel.jpg">
+                        </div>
+                        <!--SLIDE IMAGES END-->
+                        <!--AUTOMATIC NAVIGATION START-->
+                    <div class="navigation-auto h-250 w-700 grid grid-cols-1 grid-rows-5 place-items-start absolute mx-4 my-4 top-108">
+                        <div class="auto-btn1 justify-self-start row-start-1 border-2 border-solid border-orange-500 p-1.5 rounded-lg duration-1000"></div>
+                        <div class="auto-btn2 justify-self-start row-start-2 border-2 border-solid border-orange-500 p-1.5 rounded-lg duration-1000"></div>
+                        <div class="auto-btn3 justify-self-start row-start-3 border-2 border-solid border-orange-500 p-1.5 rounded-lg duration-1000"></div>
+                        <div class="auto-btn4 justify-self-start row-start-4 border-2 border-solid border-orange-500 p-1.5 rounded-lg duration-1000"></div>
+                        <div class="auto-btn5 justify-self-start row-start-5 border-2 border-solid border-orange-500 p-1.5 rounded-lg duration-1000"></div>
+                    </div>
+                    <!--AUTOMATIC NAVIGATION END-->
+                    </div>
+                    
+
+                    <!--MANUAL NAVIGATION START-->
+                    <div class="navigation-manual h-250 w-700 grid grid-cols-1 grid-rows-5 place-items-start absolute mx-4 my-4">
+                        <label for="radio1" class="manual-btn justify-self-start row-start-1 border-2 border-solid border-orange-500 hover:bg-orange-500 p-1.5 rounded-lg cursor-pointer duration-1000 shadow-md"></label>
+                        <label for="radio2" class="manual-btn justify-self-start row-start-2 border-2 border-solid border-orange-500 hover:bg-orange-500 p-1.5 rounded-lg cursor-pointer duration-1000 shadow-md"></label>
+                        <label for="radio3" class="manual-btn justify-self-start row-start-3 border-2 border-solid border-orange-500 hover:bg-orange-500 p-1.5 rounded-lg cursor-pointer duration-1000 shadow-md"></label>
+                        <label for="radio4" class="manual-btn justify-self-start row-start-4 border-2 border-solid border-orange-500 hover:bg-orange-500 p-1.5 rounded-lg cursor-pointer duration-1000 shadow-md"></label>
+                        <label for="radio5" class="manual-btn justify-self-start row-start-5 border-2 border-solid border-orange-500 hover:bg-orange-500 p-1.5 rounded-lg cursor-pointer duration-1000 shadow-md"></label>
+                    </div>
+                    <!--MANUAL NAVIGATION END-->
+                </div>
+
+            </section>
+            <!--IMAGE SLIDER END-->
+            <div class="flex self-end absolute ml-425 md:ml-580 p-4 whitespace-nowrap bg-white bg-opacity-60 rounded-l-full">
+                <h1 class="text-3xl">The Perfect <b>Destination</b></h1>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="flex flex-col items-center space-y-20">
+        
+            <!--ABOUT US-->
+            
+            <section class="w-950">
+                <div class="text-center mb-4">
+                    <h1 class="text-3xl">Taking You <b>Beyond Extraordinary</b></h1>
+                </div>
+                
+                <div class="text-center">
+                    <p>
+                        Exotic <b>Travel</b> is a full-service luxury travel agency located in Boston, Massachusetts.<br>
+                        Founded in 1994 by Bostonian entrepreneur, Sarah Perez-Anderson, our professional team of over 100<br>
+                        travel experts has planned more than 500,000 vacations.
+                    </p>
+                    <br>
+                    <p>
+                        As a preferred partner of the world’s foremost travel brands and a proud member of the prestigious Signature Travel Network, we’ve built trusted relationships with hundreds of travel companies, destination specialists, and local experts worldwide so you always get the best vacation value available – savings, service and support and you won’t find anywhere else.
+                    </p>
+                    <br>
+                    <p>
+                        With seven Boston locations plus a robust online division, we are a full service agency that specializes in customized vacation planning for all types of travel. The best part – there’s no obligation, no pressure, and with our price-match promise, you never pay more for your vacation, only get more.
+                    </p>
+
+                </div>
+
+            </section>
+
+            <!--WHY USE OUR TRAVEL AGENCY-->
+            <section class="w-950 flex flex-col items-center">
+                <div class="text-center mb-4">
+                    <h1 class="text-3xl mb-4"><b>Why</b> Use our Travel Agency?</h1>
+                </div>
+                <div>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Xj4E0Zry6K4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </section>
+
+            <!--CONNECT WITH EXOTIC TRAVEL-->
+            <section class="w-950">
+                <div class="mb-4">
+                    <h1 class="text-3xl text-center "><b>Connect</b> with Exotic <b>Travel</b></h1>
+                </div>
+                <br>
+                <div class="flex flex-row justify-evenly space-x-8">
+                    <div class="bg-orange-500 w-375 h-250 flex flex-col justify-evenly p-4 shadow-black shadow-lg">
+                        <h2 class="text-2xl">Visit a Location</h2>
+                        <p>
+                            Sit down with one of our experienced travel advisors to discuss your dreams, have your questions answered and personally craft your vacation by visiting one of seven convenient Boston locations.
+                        </p>
+                        <button class="bg-black text-white font-bold p-1.5 w-125 shadow-md">
+                            Branches -
+                        </button>
+                    </div>
+                    <div class="bg-orange-500 w-375 h-250 flex flex-col justify-evenly p-4 shadow-black shadow-lg">
+                        <h2 class="text-2xl">Find An Advisor</h2>
+                        <p>
+                            Whatever your dream trip might be, we have a travel expert that can help! Search by destination specialty, cruise line or branch location to find the right travel advisor for you.
+                        </p>
+                        <button class="bg-black text-white font-bold p-1.5 w-125 shadow-md">
+                            Advisors -
+                        </button>
+                    </div>
+                    <div class="bg-orange-500 w-375 h-250 flex flex-col justify-evenly p-4 shadow-black shadow-lg">
+                        <h2 class="text-2xl">Contact Our Team</h2>
+                        <p>
+                            Whether you know exactly where you want to go or want help deciding, our insider connections ensure that you'll always receive exclusive savings, VIP access and complimentary extras on every trip.
+
+                        </p>
+                        <button class="bg-black text-white font-bold p-1.5 w-125 shadow-md">
+                            Contact Us -
+                        </button>
+                    </div>
+                </div>
+                
+            </section>
+            <br>
+
+            <!--VISIT AN EXOTIC TRAVEL LOCATION-->
+            <section class="w-950">
+                <div class="text-center mb-4">
+                    <h1 class="text-3xl"><b>Visit</b> an Exotic <b>Travel</b> Location</h1>
+                </div>
+                <div class="grid grid-cols-2 grid-rows-2 justify-items-center gap-y-10 mb-10">
+                    <div class="row-start-1 col-start-1">
+                        <h2 class="text-2xl">Boston</h2>
+                        <p>825 west street, #7 <br>Boston,MA 02115<br>(617) 555-555</p>
+                    </div>
+                    <div class="row-start-2 col-start-1">
+                        <h2 class="text-2xl">Boston</h2>
+                        <p>825 west street, #7 <br>Boston,MA 02115<br>(617) 555-555</p>
+                    </div>
+                    <div class="row-start-1 col-start-2">
+                        <h2 class="text-2xl">Boston</h2>
+                        <p>825 west street, #7 <br>Boston,MA 02115<br>(617) 555-555</p>
+                    </div>
+                    <div class="row-start-2 col-start-2">
+                        <h2 class="text-2xl">Boston</h2>
+                        <p>825 west street, #7 <br>Boston,MA 02115<br>(617) 555-555</p>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <h2 class="text-2xl">Let us help plan your next vacation</h2>
+                </div>
+                
+            </section>
+
+        </div>
+
+    </main>
+    <footer class="bg-white dark:bg-cyan-800 -z-40">
+        <div class="container flex flex-col items-center justify-between p-6 mx-auto space-y-4 sm:space-y-0 sm:flex-row">
+           
+            <p class="text-sm text-gray-600 dark:text-gray-300">© Designed & Built by Sarah Perez-Anderson | CMT-111-200 2023</p>
+        
+            <div class="flex -mx-2">
+
+                <!--GITHUB ICON LINK-->
+                <a href="https://github.com/Sapereza" class="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-slate-900 dark:hover:text-blue-400" aria-label="Github">
+                    <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M12.026 2C7.13295 1.99937 2.96183 5.54799 2.17842 10.3779C1.395 15.2079 4.23061 19.893 8.87302 21.439C9.37302 21.529 9.55202 21.222 9.55202 20.958C9.55202 20.721 9.54402 20.093 9.54102 19.258C6.76602 19.858 6.18002 17.92 6.18002 17.92C5.99733 17.317 5.60459 16.7993 5.07302 16.461C4.17302 15.842 5.14202 15.856 5.14202 15.856C5.78269 15.9438 6.34657 16.3235 6.66902 16.884C6.94195 17.3803 7.40177 17.747 7.94632 17.9026C8.49087 18.0583 9.07503 17.99 9.56902 17.713C9.61544 17.207 9.84055 16.7341 10.204 16.379C7.99002 16.128 5.66202 15.272 5.66202 11.449C5.64973 10.4602 6.01691 9.5043 6.68802 8.778C6.38437 7.91731 6.42013 6.97325 6.78802 6.138C6.78802 6.138 7.62502 5.869 9.53002 7.159C11.1639 6.71101 12.8882 6.71101 14.522 7.159C16.428 5.868 17.264 6.138 17.264 6.138C17.6336 6.97286 17.6694 7.91757 17.364 8.778C18.0376 9.50423 18.4045 10.4626 18.388 11.453C18.388 15.286 16.058 16.128 13.836 16.375C14.3153 16.8651 14.5612 17.5373 14.511 18.221C14.511 19.555 14.499 20.631 14.499 20.958C14.499 21.225 14.677 21.535 15.186 21.437C19.8265 19.8884 22.6591 15.203 21.874 10.3743C21.089 5.54565 16.9181 1.99888 12.026 2Z">
+                        </path>
+                    </svg>
+                </a>
+
+                <!--INDEED ICON LINK-->
+                <a href="https://www.linkedin.com/in/sapereza/" class="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400" aria-label="Github">
+                    <ion-icon class="w-5 h-5" name="logo-linkedin"></ion-icon>
+                </a>
+
+
+                <!--CODEPEN ICON LINK-->
+                <a href="https://codepen.io/your-work" class="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-slate-900 dark:hover:text-blue-400" aria-label="Github">
+                    <ion-icon class="w-5 h-5" name="logo-codepen"></ion-icon>
+                </a>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
